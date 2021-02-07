@@ -1,0 +1,60 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    appium_lib (11.1.0)
+      appium_lib_core (~> 4.1)
+      nokogiri (~> 1.8, >= 1.8.1)
+      tomlrb (~> 1.1)
+    appium_lib_core (4.2.1)
+      faye-websocket (~> 0.11.0)
+      selenium-webdriver (~> 3.14, >= 3.14.1)
+    childprocess (3.0.0)
+    coderay (1.1.3)
+    diff-lcs (1.4.4)
+    eventmachine (1.2.7-x64-mingw32)
+    faye-websocket (0.11.0)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    ffi (1.14.2-x64-mingw32)
+    method_source (1.0.0)
+    nokogiri (1.11.1-x64-mingw32)
+      racc (~> 1.4)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    racc (1.5.2)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.1)
+    rubyzip (2.3.0)
+    rufo (0.12.0)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    tomlrb (1.3.0)
+    websocket-driver (0.7.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  appium_lib (= 11.1.0)
+  ffi
+  pry
+  rspec
+  rufo
+
+BUNDLED WITH
+   2.1.4

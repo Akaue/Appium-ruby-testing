@@ -1,0 +1,9 @@
+[caps]
+platformName = "Android"
+deviceName = "VirtualDevice"
+udid = "192.168.170.101:5555"
+app = "C:\\QA\\QAMOBILE\\app-debug.apk"
+appPackage = "qaninja.com.pixel"
+appActivity = "qaninja.com.pixel.SplashScreen"
+automationName = "uiautomator2"
+
